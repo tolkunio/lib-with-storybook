@@ -1,0 +1,34 @@
+.tag {
+  all: unset;
+
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  padding: 0 13px 0 12px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 200%;
+  color: var(--color-dark-500);
+
+  background-color: white;
+  border-radius: 4px;
+  outline: 1px solid gray;
+  box-shadow: 0 2px 10px 0 #8a91a1;
+
+  &:focus-visible {
+    outline: 1px solid lightblue;
+  }
+
+  &:hover {
+    background-color: gainsboro;
+  }
+
+  &:active {
+    color: var(--color-light-500);
+    background-color: lightblue;
+  }
+}
