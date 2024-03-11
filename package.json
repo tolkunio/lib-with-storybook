@@ -1,6 +1,6 @@
 {
   "name": "@tolkun/live-demo-lib",
-  "private": true,
+  "private": false,
   "version": "0.0.2",
   "type": "module",
   "main": "dist/live-bundlers.js",
