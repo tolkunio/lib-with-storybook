@@ -10,7 +10,7 @@ export default defineConfig({
       name: 'index',
       formats:['es'],
       // the proper extensions will be added
-      fileName: 'it-calendar-lib',
+      fileName: 'live-bundlers',
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
